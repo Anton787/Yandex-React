@@ -285,4 +285,4 @@ export interface IOrderFormView extends IModal<{
 **Добавление в корзину:**
   - **IProductModalView вызывает onAddToBasket.**
   - **IBasketService обновляет данные корзины.**
-  - **Генерируется событие basket:update для перерисовки UI.**
+  - **В следующем шаге генерируется событие basket:update для перерисовки UI.**
