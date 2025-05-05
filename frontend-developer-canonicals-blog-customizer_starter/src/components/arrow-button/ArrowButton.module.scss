@@ -1,30 +1,38 @@
 .container {
-  box-sizing: border-box;
-  position: fixed;
-  top: 31px;
-  display: flex;
-  width: 100px;
-  height: 100px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  border-right: 1px;
-  background-color: #000;
-  transition: transform 0.5s ease;
+	box-sizing: border-box;
+	position: fixed;
+	top: 31px;
+	display: flex;
+	width: 100px;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	border-right: 1px;
+	background-color: #000;
+	transition: transform 0.5s ease, background-color 0.25s ease;
+}
+
+.container:hover{
+	background-color: #FFC802;
+}
+
+.container:active{
+	background-color: #787878;
 }
 
 .container_open {
-  transform: translate(616px);
+	transform: translate(616px);
 }
 
 .arrow {
-  width: 48px;
-  height: 48px;
-  flex-shrink: 0;
-  transform: rotate(180deg);
-  transition: transform 0.5s ease;
+	width: 48px;
+	height: 48px;
+	flex-shrink: 0;
+	transform: rotate(180deg);
+	transition: transform 0.5s ease;
 }
 
 .arrow_open {
-  transform: rotate(0deg);
+	transform: rotate(0deg);
 }

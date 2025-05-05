@@ -10,10 +10,10 @@
   border: 1px solid #000;
 }
 
-.button:active {
-  background: var(--gold, #ffc802);
-}
-
 .button:hover {
+	background: var(--gold, #FFEDAB);
+  }
+
+.button:active {
   background: var(--gold, #ffc802);
 }

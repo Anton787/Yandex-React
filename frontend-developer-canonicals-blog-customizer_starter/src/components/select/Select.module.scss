@@ -39,7 +39,7 @@
 
 .selectWrapper:not([data-is-active="true"])
   .placeholder:not([data-status="invalid"]):hover {
-  outline: 3px solid #000;
+  outline: 1px solid #FFC802;
 }
 
 .select {
